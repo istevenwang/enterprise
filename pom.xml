@@ -9,8 +9,9 @@
         <module>enterprise-common</module>
         <module>enterprise-config</module>
         <module>enterprise-eureka</module>
-    <module>enterprise-api-gateway</module>
-  </modules>
+        <module>enterprise-api-gateway</module>
+        <module>enterprise-auth</module>
+    </modules>
 
     <name>enterprise</name>
 
@@ -49,19 +50,6 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
-
-    <dependencies>
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-config</artifactId>
-            <version>1.1.3.RELEASE</version>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-eureka</artifactId>
-            <version>1.1.5.RELEASE</version>
-        </dependency>
-    </dependencies>
 
     <repositories>
         <repository>
